@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Предложить новость</title>
+
+    <link rel="stylesheet" href="css/offer_news.min.css">
+</head>
+
+<body>
+    <div class="menu disabled">
+        <a href="index.html">Главная</a>
+        <a href="offer_news.html">Предложить репортаж</a>
+        <a href="hot_news.html">Горячие новости</a>
+        <a href="authors.html">Репортёры</a>
+        <a href="#">Выйти</a>
+    </div>
+    <header class="header">
+        <div class="container">
+    
+            <a href="index.html" class="logo">
+                Откровенные истории
+            </a>
+    
+            <input type="text" class="searchbar__input" placeholder="Начните поиск...">
+    
+            <img src="icons/dest/loup.svg" class="loup">
+    
+            <img src="icons/dest/burger.svg" class="burger" onclick="open_menu()">
+        </div> <!-- ./container -->
+    </header>
+    
+    
+    <section class="sect__preview">
+        <img src="images/dest/Tyler_preview.png" class="photo__preview">
+    
+        <div class="text__preview">
+            <div class="name__preview">Тайлер <span>Дерден</span></div>
+            <div class="text_1__preview">Начал карьеру с предложения</div>
+            <div class="text_2__preview">Заполни форму и будь как Тайлер</div>
+        </div>
+        
+    </section>
+    
+    <section class="sect__offer_report">
+        <div class="title__offer_report">
+            Предложить репортаж
+        </div>
+    
+        <div class="content__offer_report">
+            <div class="text__offer_report">
+                предоставьте свои данные и отправьте материал с помощью формы на сайте
+            </div>
+    
+            <div class="divide_line__offer_report"></div>
+                
+            <div class="form__offer_report">
+                <input type="text" class="input_name__offer_report" placeholder="Имя">
+                <input type="text" class="input_email_offer_report" placeholder="Почтовый ящик">
+                
+                <div class="drug_and_drop__offer_report">
+                    <img src="icons/dest/cloud.svg" class="img__drug_and_drop">
+                    <div class="title__drug_and_drop">Загрузите документ</div>
+                    <div class="text__drug_and_drop">перетащите мышкой или кликните по этому окну</div>
+                </div>
+                <button class="btn__drug_and_drop">Отправить</button>
+            </div>
+        </div>
+    </section> <!-- ./sect__offer_report -->
+    
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModalButton" class="close">&times;</span>
+          <p>Вы загрузили файл</p>
+        </div>
+        <div id="modalBackdrop" class="backdrop"></div> <!-- Добавляем элемент для затемнения заднего фона -->
+      </div>
+    
+    
+    <section class="sect__call">
+        Мы свяжемся с вами в течении 24 часов
+    </section>
+
+    <footer class="footer">
+        <div class="nav">
+            <div class="title__nav">
+                Навигация
+            </div>
+    
+            <a href="index.html">Главная</a>
+            <a href="hot_news.html">Горячие новости</a>
+            <a href="authors.html">Репортёры</a>
+            <a href="#">Выйти</a>
+        </div>
+    
+        <div class="social_network">
+            <div class="title__social_network">
+                Мы в соц.сетях
+            </div>
+    
+            <div class="icons__social_network">
+                <a href="https://vk.com/feed"><img src="icons/dest/VK.svg"></a> 
+                <a href="https://translate.google.ru"><img src="icons/dest/instagram.svg"></a> 
+                <a href="https://www.youtube.com"><img src="icons/dest/youtube.svg"></a> 
+                
+                
+            </div>
+        </div>
+    
+        <div class="mobile_app">
+            <div class="title__mobile_app">
+                Мобильное приложение
+            </div>
+    
+            
+            <img src="icons/dest/qr-code.png" class="image__mobile_app">
+        </div>
+    
+        
+    </footer>    
+    <script src="js/dist/offer_news.min.js"></script>
+</body>
+</html>
+

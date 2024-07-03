@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Главная страница</title>
+
+    <link rel="stylesheet" href="css/index.min.css">
+</head>
+
+<body>
+    <div class="menu disabled">
+        <a href="index.html">Главная</a>
+        <a href="offer_news.html">Предложить репортаж</a>
+        <a href="hot_news.html">Горячие новости</a>
+        <a href="authors.html">Репортёры</a>
+        <a href="#">Выйти</a>
+    </div>
+    <header class="header">
+        <div class="container">
+    
+            <a href="index.html" class="logo">
+                Откровенные истории
+            </a>
+    
+            <input type="text" class="searchbar__input" placeholder="Начните поиск...">
+    
+            <img src="icons/dest/loup.svg" class="loup">
+    
+            <img src="icons/dest/burger.svg" class="burger" onclick="open_menu()">
+        </div> <!-- ./container -->
+    </header>
+    
+    
+    <div class="main_container">
+        <section class="sect_preview">
+            <img src="icons/dest/preview.svg">
+        </section>
+        
+        <section class="sect_trust">
+            <div class="item__trust">
+                <img class="image__trust" src="icons/dest/clock.svg">
+    
+                <p class="text__trust">
+                    Свежие новости в нужный час
+                </p>
+            </div>
+    
+            <div class="item__trust">
+                <img class="image__trust" src="icons/dest/lamp.svg">
+    
+                <p class="text__trust">
+                    Уникальные репортажи без плагиата
+                </p>
+            </div>
+    
+            <div class="item__trust">
+                <img class="image__trust" src="icons/dest/honest.svg">
+    
+                <p class="text__trust">
+                    Только честные репортажи
+                </p>
+            </div>
+        </section> <!-- ./sect__trust -->
+    
+        <section class="sect__authors">
+            <div class="title__authors">
+                Лучшие авторы
+            </div>
+    
+            <div class="items__authors">
+                <div class="item__author">
+                    <img src="images/dest/Тайлер.jpg" class="photo__authors">
+                    
+                    <p class="name__author">Тайлер Дерден, 37 лет</p>
+                    <p class="about_me__author">О себе:</p>
+                    <p class="citation__author">
+                        “Каждый представлял отца Богом. Отец тебя бросил, что это говорит тебе о Боге?”
+                    </p>
+                </div>
+    
+                <div class="item__author">
+                    <img src="images/dest/Дерек.jpg" class="photo__authors">
+                    
+                    <p class="name__author">Дерек Виньярд, 30 лет</p>
+                    <p class="about_me__author">О себе:</p>
+                    <p class="citation__author">
+                        “Я самый опасный человек в этой тюрьме. Знаешь почему? Потому что я контролирую нижнее бельё”
+                    </p>
+                </div>
+    
+                <div class="item__author">
+                    <img src="images/dest/Журналист.jpg" class="photo__authors">
+                    
+                    <p class="name__author">Юра Грачевич, 45 леь</p>
+                    <p class="about_me__author">О себе:</p>
+                    <p class="citation__author">
+                        “Постой паровоз, не стучите колёса, кондуктор уже не нажмёт на тормоза. Для кого-то этот путь на долгие годы, а кому-то это станция окажется конечной.”
+                    </p>
+                </div>
+    
+            </div> <!-- ./items__author -->
+        </section> <!-- ./sect__authors -->
+    
+        <section class="sect__about_us">
+            <div class="title__about_us">
+                О нас
+            </div>
+    
+            <div class="text__about_us">
+                Наши авторы посланы на землю, чтобы разворошить нечистоты коррупционеров, образумить заигравшихся богачей и наставить простой народ на путь истинный, последнее просто шутки ради
+            </div>
+        </section>
+    </div> <!-- ./main_container -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <footer class="footer">
+        <div class="nav">
+            <div class="title__nav">
+                Навигация
+            </div>
+    
+            <a href="index.html">Главная</a>
+            <a href="hot_news.html">Горячие новости</a>
+            <a href="authors.html">Репортёры</a>
+            <a href="#">Выйти</a>
+        </div>
+    
+        <div class="social_network">
+            <div class="title__social_network">
+                Мы в соц.сетях
+            </div>
+    
+            <div class="icons__social_network">
+                <a href="https://vk.com/feed"><img src="icons/dest/VK.svg"></a> 
+                <a href="https://translate.google.ru"><img src="icons/dest/instagram.svg"></a> 
+                <a href="https://www.youtube.com"><img src="icons/dest/youtube.svg"></a> 
+                
+                
+            </div>
+        </div>
+    
+        <div class="mobile_app">
+            <div class="title__mobile_app">
+                Мобильное приложение
+            </div>
+    
+            
+            <img src="icons/dest/qr-code.png" class="image__mobile_app">
+        </div>
+    
+        
+    </footer>    
+    <script src="js/dist/index.min.js"></script>
+</body>
+</html>
+

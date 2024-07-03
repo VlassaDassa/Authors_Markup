@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Горячие новости</title>
+
+    <link rel="stylesheet" href="css/hot_news.min.css">
+</head>
+
+<body>
+    <div class="menu disabled">
+        <a href="index.html">Главная</a>
+        <a href="offer_news.html">Предложить репортаж</a>
+        <a href="hot_news.html">Горячие новости</a>
+        <a href="authors.html">Репортёры</a>
+        <a href="#">Выйти</a>
+    </div>
+    <header class="header">
+        <div class="container">
+    
+            <a href="index.html" class="logo">
+                Откровенные истории
+            </a>
+    
+            <input type="text" class="searchbar__input" placeholder="Начните поиск...">
+    
+            <img src="icons/dest/loup.svg" class="loup">
+    
+            <img src="icons/dest/burger.svg" class="burger" onclick="open_menu()">
+        </div> <!-- ./container -->
+    </header>
+    
+    
+    <section class="sect_preview">
+        <div class="title__preivew">
+            Главная новость дня
+        </div>
+    
+        <img src="images/dest/Derek_preview.png" class="photo_1__preivew">
+        <img src="icons/dest/equal.png" class="icon__preview">
+        <img src="images/dest/Tyler_preview_2.png" class="photo_2__preivew">
+    </section> <!-- ./sect_preview -->
+    
+    <section class="sect__polit_news">
+        <div class="title__polit_news">
+            Политические репортажи
+        </div>
+    
+        <div class="content__polit_news">
+            <img src="icons/dest/close_eye.svg" class="icon__polit_news">
+    
+            <div class="text__polit_news">
+                Заблокировано по приказу роскомнадзора
+            </div>
+        </div>
+    </section> <!-- ./sect__polit_news -->
+    
+    
+    <section class="sect__celebrities">
+        <div class="title__celebrities">
+            Знаменистости
+        </div>
+    
+        <div class="wrapper__slider">
+    
+            <img src="icons/dest/arrow-left.svg" class="arrow left" onclick="prev()">
+    
+            <div class="content__celebrities">
+    
+                
+                <div class="two_items__celebrities">   
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/dance_report.jpg" class="img__celebrities">
+                        </div>
+    
+                        <div class="title-item__celebrities">
+                            Танцует так, будто пытается замести следы своих танцевальных грехов
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Известный актер Илюша на дне рождения у политика протанцевал под новый хит "Стараюсь быть лучше", но многие заметили, что Илюша не хочет быть лучше и вел себя так, будто песня была о "Мешке в коте, абапарао кичау" <span>Посмотреть</span>
+                        </div>
+                    </div>
+    
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/Elon_musk_report.jpg" class="img__celebrities">
+                        </div>
+    
+                        <div class="title-item__celebrities">
+                            «Все болезни в голове, не знаю ни одной», — Мой психолог мне сказал и выпрыгнул в окно
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Илон Маск поделился своей травмирующей историей, связанной с походом к психологу... <span>Посмотреть</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="two_items__celebrities" id="slide_2">   
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/church_report.jpg" class="img__celebrities">
+                        </div>
+    
+                        <div class="title-item__celebrities">
+                            "Оскорби мои чувства - я верующий"
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Звезда рэп-индустрии объяснила свое предпочтение к святым текстам и попросила, чтобы ее песни играли только в церкви. Пасторы в очереди ждут автографов на священных книгах. Богач и душа, и карьера, и оскорбления - вот такая вера в свое дело! <span>Посмотреть</span>
+                        </div>
+                    </div>
+    
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/union_report.jpg" class="img__celebrities">
+                        </div>
+    
+                        <div class="title-item__celebrities">
+                            Союз губ и ботинок
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Нашумевший скандал разразившийся в Москве, вообще не имеет отношения к этой новости. Павлика Морозова избила бабушка, она отрицает это событие и называет произошеднее союзом губ и ботинок <span>Посмотреть</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="two_items__celebrities">
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/Багровый фантомас.jpg" class="img__celebrities">
+                        </div>
+    
+                        <div class="title-item__celebrities">
+                            Рок группа "Багровый фантомас" замутила хитяру в кремле
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Скандальная группа, несущая на себе обречённое знамя, всё же смогла пробиться и сыграть на дне рождения у Путина свой новый хит “Мешок в коте, абапарао кичау”. <span>Посмотреть</span>
+                        </div>
+                    </div>
+    
+                    <div class="item__celebrities">
+                        <div class="wrapper_image__celebrities">
+                            <img src="images/dest/derek_report.png" class="img__celebrities">
+                        </div>
+                        
+    
+                        <div class="title-item__celebrities">
+                            Одного из лучших авторов сайта "Откровенные истории" уличили в..
+                        </div>
+    
+                        <div class="text-item__celebrities">
+                            Один из лучших авторов сайта “Откровенные истории” был  обвинён, посажен и убит в тюрьме по совершенно разным причинам, а именно... <span>Посмотреть</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <img src="icons/dest/arrow-right.svg" class="arrow right" onclick="next()">
+        </div>
+    
+    </section> <!-- ./sect__celebrities -->
+    
+
+    <footer class="footer">
+        <div class="nav">
+            <div class="title__nav">
+                Навигация
+            </div>
+    
+            <a href="index.html">Главная</a>
+            <a href="hot_news.html">Горячие новости</a>
+            <a href="authors.html">Репортёры</a>
+            <a href="#">Выйти</a>
+        </div>
+    
+        <div class="social_network">
+            <div class="title__social_network">
+                Мы в соц.сетях
+            </div>
+    
+            <div class="icons__social_network">
+                <a href="https://vk.com/feed"><img src="icons/dest/VK.svg"></a> 
+                <a href="https://translate.google.ru"><img src="icons/dest/instagram.svg"></a> 
+                <a href="https://www.youtube.com"><img src="icons/dest/youtube.svg"></a> 
+                
+                
+            </div>
+        </div>
+    
+        <div class="mobile_app">
+            <div class="title__mobile_app">
+                Мобильное приложение
+            </div>
+    
+            
+            <img src="icons/dest/qr-code.png" class="image__mobile_app">
+        </div>
+    
+        
+    </footer>    
+    <script src="js/dist/hot_news.min.js"></script>
+</body>
+</html>
+
